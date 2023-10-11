@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generator</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="range-block">
+            <p><input class="all" type="range" min="0" max="200" value="0" step="1"> All</p>
+            <p><input class="tl" type="range" min="0" max="200" value="0" step="1"> Top Left</p>
+            <p><input class="tr" type="range" min="0" max="200" value="0" step="1"> Top Rigth</p>
+            <p><input class="br" type="range" min="0" max="200" value="0" step="1"> Bottom Rigth</p>
+            <p><input class="bl" type="range" min="0" max="200" value="0" step="1"> Bottom Left</p>
+            <p><input class="bw" type="range" min="0" max="50" value="0" step="1"> Border Width</p>
+            <p><input class="TTx" min="0" max="100" value="50" step="0" type="range">Transform X </p>
+            <p><input class="TTy" min="0" max="200" value="0" step="1" type="range">Tranform Y </p>
+            <p><input class="TTr" min="0" max="200" value="0" step="1" type="range">Rotate</p>
+            <p><input class="bc" type="color"> Border Color</p>
+            <p><input class="bgc" type="color"> Background Color</p>
+            <p><select name="" id="">
+                <option disabled selected>Choose Style</option>
+                <option class="solid" value="solid">Solid</option>
+                <option class="dotted" value="dotted">Dotted</option>
+                <option class="dashed" value="dashed">Dashed</option>
+                <option class="doubled" value="double">Doubled</option>
+            </select>Border Style</p>
+        </div>
+        
+        <div class="block">
+            <textarea class="result" disabled></textarea>
+        </div>
+ 
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
